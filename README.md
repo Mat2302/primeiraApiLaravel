@@ -13,3 +13,5 @@
 ```php artisan migrate:status``` -> status de todas as migrations existentes no projeto
 
 ```php artisan migrate:fresh``` -> dropa todas as tabelas e cria-as novamente com as devidas alterações
+
+```php artisan make:model nomeModel``` -> cria um model padrão básico
