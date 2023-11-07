@@ -15,7 +15,8 @@ use App\Http\Controllers\TitleController;
 */
 
 Route::get('/', [TitleController::class, 'index']);
-Route::get('/titles/create', [TitleController::class,'create']);
+Route::get('/titles/create', [TitleController::class, 'create']);
+Route::post('/titles', [TitleController::class, 'store']);
 
 /* Route::get('/game', function () {
     return view('game');
